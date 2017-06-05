@@ -1,0 +1,13 @@
+.jumbotron {
+	background-color: transparent;
+	background-image: url('../images/MBTDF.jpg');
+}
+
+.container {
+	background-color: transparent;
+	overflow: none;
+}
+
+body {
+	background-image: url('../images/MBTDF.jpg');
+}
