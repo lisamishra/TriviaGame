@@ -76,9 +76,9 @@ function show(){
 
 var feedback = $("div");
       feedback.addClass("score");
-      $("#score").append(fb);
+      $("#score").append(feedback);
       feedback.html("You did aight, but you ain't love Kanye like Kanye." + "<br>" 
-        + "Correct answers:  " + correct + "<br>"
-        + "Incorrect answers: " + incorrect + "<br>"
-        + "Unanswered questions:  " + unanswered + "<br>");
+        + "Correct answers:  " + correct + "<p>"
+        + "Incorrect answers: " + incorrect + "<p>"
+        + "Unanswered questions:  " + unanswered + "<p>");
 
