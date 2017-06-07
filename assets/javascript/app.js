@@ -1,5 +1,5 @@
 //Quiz Variables
-
+var questionCount = 0;
 var correct = 0;
 var incorrect = 0;
 var unanswered = 0;
@@ -7,11 +7,12 @@ var unanswered = 0;
 //show and hide elements
 
 function show(){
-	var reveal = document.getElementbyID('quizSection').style.display ='block';
-}
-
-function hide(){
-	var mask = document.getElementbyID('quiz').style.display ='none';
+	var reveal = document.getElementById('jumbotron');
+	if (reveal.style.display === 'none'){
+			reveal.style.display = 'block';
+	} else {
+		reveal.style.display = 'none';
+	}
 }
 
 
