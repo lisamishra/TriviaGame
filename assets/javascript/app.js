@@ -7,7 +7,7 @@ var unanswered = 0;
 //show and hide elements
 
 function show(){
-	var reveal = document.getElementById('jumbotron');
+	var reveal = document.getElementById('questions');
 	if (reveal.style.display === 'none'){
 			reveal.style.display = 'block';
 	} else {
