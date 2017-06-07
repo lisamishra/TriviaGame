@@ -12,8 +12,56 @@
 	
   			<h1>Kanye West Trivia Game</h1>
   			<p>How well do you think you know Kanye West?</p>
-  			<p><a class="btn btn-primary btn-lg" href="#" role="button">I'm definitely in my zone!</a></p>
+  			<button class="btn btn-primary btn-lg" onclick="show()">Don't let me in my zone!</button>
+  			<div id="quizSection" class = "hide"></div>
+
+  			<div id="quiz" class="left"> 
+			<p></p>
+
+			<p class="questions">What is Kanye's mother's name?</p>
+			<input type="radio" id="1a" name="Qs1" class="answers" > Nancy
+			<input type="radio" id="1b" name="Q1" class="answers" > Gretta
+			<input type="radio" id="1c" name="Q1" class="answers" > Mary
+			<input type="radio" id="1d" name="Q1" class="answers" > Donda
+
+			<p class="questions">The lyrics "so Chi that you thought I was bashful" come from a song on which critically-acclaimed album?</p>
+			<input type="radio" id="2a" name="Q2" class="answers" > College Dropout
+			<input type="radio" id="2b" name="Q2" class="answers" > Late Registration
+			<input type="radio" id="2c" name="Q2" class="answers" > Graduation
+			<input type="radio" id="2d" name="Q2" class="answers" > Yeezus
+
+			<p class="questions">Ye's near-death experience at the start of his career inspired which song?</p>
+			<input type="radio" id="3a" name="Q3" class="answers" > New Workout Plan
+			<input type="radio" id="3b" name="Q3" class="answers" > Runaway
+			<input type="radio" id="3c" name="Q3" class="answers" > Through the Wire
+			<input type="radio" id="3d" name="Q3" class="answers" > All Falls Down
+
+			<p class="questions">Whose rendering of "Dropout Bear" is featured on the cover of "Graduation?"</p>
+			<input type="radio" id="4a" name="Q4" class="answers" > Andy Warhol
+			<input type="radio" id="4b" name="Q4" class="answers" > Keith Harring
+			<input type="radio" id="4c" name="Q4" class="answers" > Takashi Murakami
+			<input type="radio" id="4d" name="Q4" class="answers" > Pablo Picasso
+
+			<p class="questions">What artist originally signed Kanye as a producer for his label before discovering his talent as a rapper?</p>
+			<input type="radio" id="5a" name="Q5" class="answers" > P Diddy
+			<input type="radio" id="5b" name="Q5" class="answers" > Russell Simmons
+			<input type="radio" id="5c" name="Q5" class="answers" > Jay-Z
+			<input type="radio" id="5d" name="Q5" class="answers" > Birdman
+
+			<p class="questions">Who has Kanye not trash-talked (as far as we know)?</p>
+			<input type="radio" id="6a" name="Q6" class="answers" > Drake
+			<input type="radio" id="6b" name="Q6" class="answers" > Taylor Swift
+			<input type="radio" id="6c" name="Q6" class="answers" > George Bush
+			<input type="radio" id="6d" name="Q6" class="answers" > Rihanna
 	</div>
+  			<p></p>
+  			
+  			<input type="button" id="go" value="I'm definitely in my zone!" class="btn btn-primary btn-lg" onclick="show('quizSection')">
+
+  			</div>
+  			</div>
+
+  		<div id="score"></div>
 
 <script
   src="https://code.jquery.com/jquery-3.2.1.js"
